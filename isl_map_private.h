@@ -585,6 +585,8 @@ isl_bool isl_basic_map_applies_range(__isl_keep isl_basic_map *bmap1,
 
 __isl_give isl_mat *isl_basic_set_extract_equalities(
 	__isl_keep isl_basic_set *bset);
+__isl_give isl_mat *isl_basic_map_extract_equalities(
+	__isl_keep isl_basic_map *bmap);
 
 isl_bool isl_basic_map_equal_div_expr_part(__isl_keep isl_basic_map *bmap1,
 	int pos1, __isl_keep isl_basic_map *bmap2, int pos2,
