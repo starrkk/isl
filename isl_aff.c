@@ -39,6 +39,11 @@
 #include <isl_list_templ.c>
 
 #undef EL_BASE
+#define EL_BASE multi_aff
+
+#include <isl_list_templ.c>
+
+#undef EL_BASE
 #define EL_BASE pw_aff
 
 #include <isl_list_templ.c>
